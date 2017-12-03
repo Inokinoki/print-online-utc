@@ -27,7 +27,7 @@
         <nav class="blue-grey">
         <div class="container">
         <div class="nav-wrapper">
-            <a href="<?php echo View::$dirConfig['root']; ?>" class="brand-logo"><i class="material-icons">cloud</i>Cloud Print</a>
+            <a href="<?php echo View::$dirConfig['root']; ?>" class="brand-logo"><i class="material-icons">cloud</i>Print</a>
             <a href="#" data-activates="mobile-drop" class="button-collapse"><i class="material-icons">menu</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
 <?php if (!$isLogin){ ?>
