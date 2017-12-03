@@ -25,7 +25,7 @@
                     <span class="badge <?php echo $badgeColor;?> white-text"><?php echo $state; ?></span>
                 </div>
                 <div class="col s12" style="text-align:center;">
-                    <img src="http://chart.apis.google.com/chart?chs=128x128&cht=qr&chld=L|0&chl=poapp://no=<?php echo $commandeno;?>" 
+                    <img src="http://chart.apis.google.com/chart?chs=128x128&cht=qr&chld=L|0&chl=poapp://no=<?php echo $command["no"];?>" 
                         alt="qrcode"/>
                 </div>
                 <span>Temps : <?php echo $command["time"]; ?></span><br/>
@@ -37,7 +37,7 @@
                 <span>Vendeur : <?php echo $command["publisher"]; ?></span><br/>
             </div>  
             <div class="card-action">
-                <a href="http://chart.apis.google.com/chart?chs=128x128&cht=qr&chld=L|0&chl=poapp://no=<?php echo $commandeno;?>">Enregistrer le QRCode</a>
+                <a href="http://chart.apis.google.com/chart?chs=128x128&cht=qr&chld=L|0&chl=poapp://no=<?php echo $command["no"];?>">Enregistrer le QRCode</a>
             </div>
 <?php } else {?>
             <div class="card-content">
