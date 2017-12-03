@@ -1,0 +1,11 @@
+
+# Test files
+*.test.*
+*Test*.php
+
+# Test picture folder
+img/
+
+# Apple caches
+.DS_Store
+.Trashes
