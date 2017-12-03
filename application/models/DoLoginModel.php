@@ -153,7 +153,7 @@ class DoLoginModel extends Model
                 $data["uuid"] = $uuid;
                 $this->update($this->_uid, $data);
                 $logger->logWithOperation("Logined", "username=".$this->_username);
-                setcookie("print-uuid", $uuid, 0, View::$dirConfig['root']);
+                setcookie("print-uuid", $uuid, 0, "/");
                 return 0;
             }
             $logger->logWithOperation("Login Failed", "username=".$this->_username." password=".$this->_password);
