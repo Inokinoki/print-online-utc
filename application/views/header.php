@@ -36,6 +36,7 @@
                 <li><a href="<?php echo View::$dirConfig['root']; ?>/User/commande"><i class="material-icons left">person</i> <?php echo $username; ?></a></li>
                 <li><a href="<?php echo View::$dirConfig['root']; ?>/Pay/list"><i class="material-icons left">credit_card</i> €<?php echo $solde/100; ?></a></li>
 <?php } ?>
+                <li><a href="<?php echo View::$dirConfig['root']; ?>/Upload/index"><i class="material-icons" title="Imprimer">present_to_all</i></a></li>
                 <li><a href="<?php echo View::$dirConfig['root']; ?>/Command/print"><i class="material-icons" title="Imprimer">print</i></a></li>
                 <li><a href="<?php echo View::$dirConfig['root']; ?>/Command/copy"><i class="material-icons" title="Recopier">content_copy</i></a></li>
                 <li><a href="<?php echo View::$dirConfig['root']; ?>/Command/scan"><i class="material-icons" title="Scanner">scanner</i></a></li>
@@ -47,6 +48,7 @@
                 <li><a href="<?php echo View::$dirConfig['root']; ?>/User/commande"><i class="material-icons">person</i> <?php echo $username; ?></a></li>
                 <li><a href="<?php echo View::$dirConfig['root']; ?>/Pay/list"><i class="material-icons">credit_card</i> €<?php echo $solde/100; ?></a></li>
 <?php } ?>
+                <li><a href="<?php echo View::$dirConfig['root']; ?>/Upload/index"><i class="material-icons">present_to_all</i> Imprimer PDF</a></li>
                 <li><a href="<?php echo View::$dirConfig['root']; ?>/Command/print"><i class="material-icons">print</i> Imprimer</a></li>
                 <li><a href="<?php echo View::$dirConfig['root']; ?>/Command/copy"><i class="material-icons">content_copy</i> Recopier</a></li>
                 <li><a href="<?php echo View::$dirConfig['root']; ?>/Command/scan"><i class="material-icons">scanner</i> Scanner</a></li> 
