@@ -119,7 +119,7 @@ class DoLoginModel extends Model
             $datas['username'] = $this->_username;
             $datas['password'] = $this->_password;
             $datas['uuid'] = $uuid;
-            $datas['solde'] = '0';
+            $datas['solde'] = '50';
             $datas['level'] = '0';
             $datas['birthday'] = '0';
             
